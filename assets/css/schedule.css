@@ -1,0 +1,86 @@
+.schedule {
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    background-color: #0C0C0D;
+    overflow: hidden;
+    left: 0;
+    padding-bottom: 200px;
+}
+
+.schedule_title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.schedule_title h1 {
+    font: 'Roboto Slab', sans-serif; 
+    font-weight: bold;
+    font-size: 9vmin;
+}
+
+.n-list {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    text-align: center;
+    background-color: #0C0C0D;
+    color: white;
+    font: 'Roboto Slab', sans-serif; 
+    font-weight: bold;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    
+}
+
+.n-list h1 {
+    font-size: 3em;
+    background-image: linear-gradient(
+        to right, 
+        #ff4b54 20%,
+        #f20030 40%, 
+        #ff0200 60%, 
+        #FF1A48 90%
+    );
+    background-size: 500% auto;
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    animation: movingGradient 5s ease-in-out infinite alternate;
+}
+
+.schedule_events {
+    text-align: left;
+    font-size: large;
+    list-style-type:square;
+    padding: 50px;
+}
+
+.schedule_events li {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.schedule_events li:hover {
+    color: #ff4b54;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@keyframes movingGradient {
+    0% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 50% 0%;
+    }
+}

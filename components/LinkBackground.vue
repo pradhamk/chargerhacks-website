@@ -5,12 +5,12 @@ export default {
         document.body.style.height = "100vh";
         canvas.height = document.body.clientHeight;
         canvas.width = document.body.clientWidth;
-
+        
         const ctx = canvas.getContext("2d");
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = "#E6002E";
         ctx.strokeStyle = "rgba(255, 26, 72, 1)";
-
+        
         const particles = [];
 
         function getDist(x1, y1, x2, y2) {
@@ -18,7 +18,7 @@ export default {
         }
 
         function init() {
-          for (let i = 0; i < 120; i += 1) {
+          for (let i = 0; i < 80; i += 1) {
             const x = Math.floor(Math.random() * canvas.width);
             const y = Math.floor(Math.random() * canvas.height);
             const speedX = Math.random();

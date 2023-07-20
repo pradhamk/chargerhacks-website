@@ -12,7 +12,6 @@
     <LinkBackground />
     <Navbar />
     <Landing />
-    <section> <!--Place About here-->
-
-    </section>
+    <About />  
+    <Schedule />
 </template>

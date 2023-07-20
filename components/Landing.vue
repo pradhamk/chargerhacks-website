@@ -10,13 +10,14 @@
             <button class='landing_apply'>
                 Apply Now
             </button>
+            <div class='see_more_div'>
+                <h1>See More</h1>
+                <a href='#about'>
+                    <span class="material-symbols-outlined arrow">expand_more</span>
+                </a>
+            </div>
         </div>
-        <div class='see_more_div'>
-            <h1>See More</h1>
-            <a href='#about'>
-                <span class="material-symbols-outlined arrow">expand_more</span>
-            </a>
-        </div>
+        
     </div>
     
 </template>
