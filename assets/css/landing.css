@@ -1,0 +1,107 @@
+.landing {
+    z-index: 1;
+}
+
+.landing_div {
+    width: max-content;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    position: relative;
+}
+
+.landing_div h1 {
+    font: 'Roboto Slab', sans-serif; 
+    font-weight: bold;
+}
+
+.landing_text {
+    font-size: 15vmin;
+    background-image: linear-gradient(
+        to right, 
+        #ff4b54 20%,
+        #f20030 40%, 
+        #ff0200 60%, 
+        #FF1A48 90%
+    );
+    background-size: 500% auto;
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    margin-bottom: 0;
+    z-index: 1;
+    animation: movingGradient 5s ease-in-out infinite alternate;
+}
+
+.landing_date {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 8vmin;
+}
+
+.landing_apply {
+    width: 30vmin;
+    height: 80px;
+    background-color: transparent;
+    border-radius: 25px;
+    border-color: #E6002E;
+    border-width: 3px;
+    color: #FFFFFF;
+    font: 'Roboto Slab', sans-serif; 
+    font-size: 4vmin;
+    font-weight: bolder;
+    transition: 0.3s all ease-in-out;
+    
+}
+
+.landing_apply:hover {
+    background-color: #E6002E;
+    animation: movingGradient 5s ease-in-out infinite alternate;
+}
+
+.see_more_div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.see_more_div h1 {
+    font-size: x-large;
+}
+
+.see_more_div a {
+    text-decoration: none;
+    color: white;  
+}
+
+.arrow {
+    transform: scale(2);
+    animation: movingArrow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes movingGradient {
+    0% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 50% 0%;
+    }
+}
+
+@keyframes movingArrow {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
