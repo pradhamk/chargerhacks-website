@@ -75,7 +75,7 @@
     position: absolute;
     left: 50%;
     bottom: 2px;
-    transform: translate(-50%, 20%);
+    transform: translate(-50%, 50%);
     margin: 0 auto;
     pointer-events: all;
 }

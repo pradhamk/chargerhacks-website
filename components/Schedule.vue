@@ -18,19 +18,19 @@
         <div class='lists'>
             <n-list>
                     <template #header>
-                        <h1>October 10</h1>
+                        <h1>October 13</h1>
                     </template>
                     <n-list-item>
                         <ul class='schedule_events'>
                             <li>Opening Ceremony @ 6pm</li>
                             <li>Team Crafting @ 7pm</li>
-                            <li>Start Hacking! @ 6pm</li>
+                            <li>Start Hacking! @ 8pm</li>
                         </ul>
                     </n-list-item>
                 </n-list>
             <n-list>
                     <template #header>
-                        <h1>October 11</h1>
+                        <h1>October 14</h1>
                     </template>
                     <n-list-item>
                         <ul class='schedule_events'>
@@ -40,11 +40,11 @@
             </n-list>
             <n-list>
                     <template #header>
-                        <h1>October 12</h1>
+                        <h1>October 15</h1>
                     </template>
                     <n-list-item>
                         <ul class='schedule_events'>
-                            <li>Submission Opens @ 8am</li>
+                            <li>Submissions Open @ 8am</li>
                             <li>Hacking Ends @ 12pm</li>
                             <li>Closing Ceremony @ 2pm</li>
                         </ul>

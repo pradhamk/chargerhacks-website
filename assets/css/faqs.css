@@ -5,7 +5,7 @@
     background-color: #0C0C0D;
     left: 0;
     text-align: center;
-    padding-bottom: 320px;
+    padding-bottom: 20vh;
 }
 
 .faqs_title {
@@ -13,6 +13,19 @@
     font: 'Roboto Slab', sans-serif; 
     font-weight: bold;
     font-size: 8vmin;
+    padding-top: 30px;
+}
+
+.faqs .right_lightning {
+    position: absolute;
+    right: 10vw;
+    bottom: 3vw;
+}
+
+.faqs .left_lightning {
+    position: absolute;
+    left: 10vw;
+    top: 0;
 }
 
 .n-collapse, .n-divider{
@@ -48,4 +61,14 @@
 
 .email_link:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 1200px) {
+    .faqs .left_lightning {
+        display: none;
+    }
+
+    .faqs .right_lightning {
+        display: none;
+    }
 }

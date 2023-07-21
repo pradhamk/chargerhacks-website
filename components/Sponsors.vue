@@ -30,7 +30,6 @@
                 <a href='mailto:contact@chargerhacks.com'>
                     contact@chargerhacks.com
                 </a>
-                !
             </p>
         </div>
     </section>

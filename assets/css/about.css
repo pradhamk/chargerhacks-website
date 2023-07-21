@@ -84,11 +84,6 @@
     transform: scale(2);
 }
 
-.lightning {
-    width: 4.5rem;
-    transform: translate(-10px, 10px);
-}
-
 .n-card .card_divider {
     width: auto;
 }
@@ -107,10 +102,6 @@
         padding-right: 20px;
         margin-bottom: 70px;
         width: 60vw;
-    }
-
-    .lightning {
-        display: none;
     }
 }
 
