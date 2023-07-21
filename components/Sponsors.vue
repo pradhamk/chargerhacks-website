@@ -1,7 +1,9 @@
 <script>
     import '~/assets/css/sponsors.css'
-    import { NImageGroup, NImage, NSpace } from 'naive-ui'
-
+    import * as pkg from 'naive-ui'
+    
+    const { NImageGroup, NImage, NSpace } = pkg
+    
     export default defineComponent({
         components: {
             NImageGroup,

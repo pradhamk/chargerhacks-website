@@ -1,7 +1,9 @@
 <script>
     import '~/assets/css/schedule.css'
-    import { NList, NListItem } from 'naive-ui'
-
+    import * as pkg from 'naive-ui'
+    
+    const { NList, NListItem } = pkg
+    
     export default defineComponent({
         components: {
             NList,

@@ -5,6 +5,7 @@
         description: 'ChargerHacks 2023 Hackathon Website',
         ogDescription: 'ChargerHacks 2023 Hackathon Website',
         ogImage: '/chargerhacks_logo.svg',
+        author: "Pradham Kuchipudi",
     })
 </script>
 

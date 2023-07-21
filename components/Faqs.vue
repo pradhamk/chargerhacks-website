@@ -1,6 +1,8 @@
 <script>
     import '~/assets/css/faqs.css'
-    import { NCollapse, NCollapseItem, NDivider, NImage } from 'naive-ui'
+    import * as pkg from 'naive-ui'
+
+    const { NCollapse, NCollapseItem, NDivider, NImage } = pkg
 
     export default defineComponent({
         components: {

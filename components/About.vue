@@ -1,6 +1,8 @@
 <script>
     import '~/assets/css/about.css'
-    import { NCard, NDivider } from 'naive-ui'
+    import * as pkg from 'naive-ui'
+
+    const { NCard, NDivider} = pkg
 
     export default defineComponent({
         components: {
