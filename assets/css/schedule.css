@@ -1,11 +1,12 @@
 .schedule {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: max-content;
-    background-color: #0C0C0D;
+    background-color: transparent;
     overflow: hidden;
     left: 0;
     padding-bottom: 200px;
+    pointer-events: none;
 }
 
 .schedule_title {
@@ -26,7 +27,7 @@
     text-align: center;
     width: fit-content;
     text-align: center;
-    background-color: #0C0C0D;
+    background-color: transparent;
     color: white;
     font: 'Roboto Slab', sans-serif; 
     font-weight: bold;
@@ -64,6 +65,7 @@
 .schedule_events li {
     margin-top: 20px;
     padding-bottom: 20px;
+    pointer-events: all;
 }
 
 .schedule_events li:hover {

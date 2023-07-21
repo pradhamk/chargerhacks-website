@@ -59,7 +59,8 @@
     font-size: 4vmin;
     font-weight: bolder;
     transition: 0.3s all ease-in-out;
-    
+    pointer-events: all;
+    cursor: pointer;
 }
 
 .landing_apply:hover {

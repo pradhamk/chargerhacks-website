@@ -1,0 +1,51 @@
+.faqs {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    background-color: #0C0C0D;
+    left: 0;
+    text-align: center;
+    padding-bottom: 320px;
+}
+
+.faqs_title {
+    margin-top: 0px;
+    font: 'Roboto Slab', sans-serif; 
+    font-weight: bold;
+    font-size: 8vmin;
+}
+
+.n-collapse, .n-divider{
+    width: 90vmin;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.n-collapse-item p {
+    color: white;
+    font-size: medium;
+}
+
+.n-collapse .n-collapse-item .n-collapse-item__header .n-collapse-item__header-main {
+    color: white;
+    font-size: large;
+}
+
+.n-collapse .n-collapse-item .n-collapse-item__header .n-collapse-item__header-main:hover {
+    color: #E6002E;
+}
+
+.n-base-icon {
+    color: white;
+}
+
+.email_link {
+    text-decoration: none;
+    color: #E6002E;
+}
+
+.email_link:hover {
+    text-decoration: underline;
+}

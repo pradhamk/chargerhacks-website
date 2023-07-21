@@ -14,4 +14,7 @@
     <Landing />
     <About />  
     <Schedule />
+    <Faqs />
+    <Sponsors />
+    <Footer />
 </template>

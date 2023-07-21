@@ -17,8 +17,9 @@ export default {
           return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         }
 
+        const particleNum = document.body.clientWidth < 1000 ? 40 : 80;
         function init() {
-          for (let i = 0; i < 80; i += 1) {
+          for (let i = 0; i < particleNum; i += 1) {
             const x = Math.floor(Math.random() * canvas.width);
             const y = Math.floor(Math.random() * canvas.height);
             const speedX = Math.random();

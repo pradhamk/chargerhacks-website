@@ -29,21 +29,21 @@
                 <span class="material-symbols-outlined">School</span>
                 <br>
                 <h1>Run by high schoolers</h1>
-                <n-divider />
+                <n-divider class='card_divider'/>
                 <p>ChargerHacks is organized by Churchill High School's Coding Club where students explore the world of technology through volunteering, participating in hackathons, and other events.</p>
             </n-card>
             <n-card size='large'>
                 <span class="material-symbols-outlined">pin_drop</span>
                 <br>
                 <h1>Fully Virtual</h1>
-                <n-divider />
+                <n-divider class='card_divider'/>
                 <p>As we have decided to run ChargerHacks virtually this year, all current students wether is be high school or college are strongly encouraged to attend, regardless of their physical location</p>
             </n-card>
             <n-card size='large'>
                 <span class="material-symbols-outlined">event</span>
                 <br>
                 <h1>October 10-12, 2023</h1>
-                <n-divider />
+                <n-divider class='card_divider'/>
                 <p>ChargerHacks 2023 will take place from October 10 to October 12, giving contestants 3 days/2 nights to learn, plan, and develop their project</p>
             </n-card>
         </div>

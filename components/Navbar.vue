@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
     import '~/assets/css/navbar.css'
 
     function open_menu(_e) {
@@ -29,8 +29,8 @@
             <a href="#sponsors">Sponsors</a>
         </div>
         <div class='nav_apply_div'>
-            <a href='/'>
-                <button class="nav_apply_button">Apply</button>
+            <a href='https://forms.gle/3ryRBQEWLnwzUgT2A' target="_blank">
+                <button class="nav_apply_button">Register</button>
             </a>
         </div>
         <div id="mobile_menu" class='mobile_menu'>
