@@ -48,7 +48,10 @@
             <n-collapse-item title="What do I do after applying?" name="9">
                 <p>After you apply, simply wait until the day of the opening ceremony where further instructions will be shared such as the zoom link for the opening ceremony.</p>
             </n-collapse-item>
-            <n-collapse-item title="I have more questions!" name="10">
+	    <n-collapse-item title="What are the prizes?" name="10">
+	    	<p>Though the prizes are still being determined, we can confirm that there will be cash prizes and other goodies for the winners.</p>
+	    </n-collapse-item>
+            <n-collapse-item title="I have more questions!" name="11">
                 <p>If you any unaddressed questions, feel free to email 
                     <a href="mailto:contact@chargerhacks.com" class='email_link'>
                         contact@chargerhacks.com

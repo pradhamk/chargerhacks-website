@@ -36,7 +36,7 @@
                     </template>
                     <n-list-item>
                         <ul class='schedule_events'>
-                            <li>Tech Talk with MSU students @ 3pm</li>
+                            <li>Tech/College Talk with MSU & UofM students @ 3pm</li>
                         </ul>
                     </n-list-item>
             </n-list>

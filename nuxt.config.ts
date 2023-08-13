@@ -3,4 +3,9 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/global.css'
   ],
+  app: {
+        head: {
+            link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+        }
+    },
 })

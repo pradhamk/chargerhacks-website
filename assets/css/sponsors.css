@@ -15,10 +15,17 @@
     font-size: 8vmin;
 }
 
-.sponsors_div {
-    margin-left: 25vw;
-    margin-right: 25vw;   
-    pointer-events: all; 
+
+.sponsors_div {    
+    pointer-events: all;    
+}
+
+.sponsors_div img {
+   margin-right: 40px;
+}
+
+.sponsors_div .n-space {
+   margin-bottom: 50px;
 }
 
 .sponsors_request_div {
@@ -26,7 +33,7 @@
     text-align: center;
     margin-left: 25vw;
     margin-right: 25vw;
-    margin-top: 55vh;
+    margin-top: 45vh;
 }
 
 .sponsors_request a {

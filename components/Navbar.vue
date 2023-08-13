@@ -4,13 +4,11 @@
     function open_menu(_e) {
         const open_menu = document.getElementById("mobile_menu")
         open_menu?.classList.add("active")
-        document.body.style.overflow = 'hidden';
     }
 
     function close_menu(_e) {
         const open_menu = document.getElementById("mobile_menu")
         open_menu?.classList.remove("active")
-        document.body.style.overflow = 'none';
     }
 </script>
 

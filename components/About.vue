@@ -37,7 +37,7 @@
                 <br>
                 <h1>Fully Virtual</h1>
                 <n-divider class='card_divider'/>
-                <p>As we have decided to run ChargerHacks virtually this year, all current students, wether attending high school or college, are strongly encouraged to attend, regardless of their physical location</p>
+                <p>As we have decided to run ChargerHacks virtually this year, all current students, whether attending high school or college, are strongly encouraged to attend, regardless of their physical location</p>
             </n-card>
             <n-card size='large'>
                 <span class="material-symbols-outlined">event</span>
