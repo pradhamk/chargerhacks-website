@@ -1,13 +1,11 @@
 <script>
-export default {
-    mounted() {
+function background() {
         const canvas = document.querySelector("canvas");
         document.body.style.height = "100vh";
         canvas.height = document.body.clientHeight;
         canvas.width = document.body.clientWidth;
         
         const ctx = canvas.getContext("2d");
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = "#E6002E";
         ctx.strokeStyle = "rgba(255, 26, 72, 1)";
         
@@ -19,6 +17,7 @@ export default {
 
         const particleNum = document.body.clientWidth < 1000 ? 40 : 80;
         function init() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
           for (let i = 0; i < particleNum; i += 1) {
             const x = Math.floor(Math.random() * canvas.width);
             const y = Math.floor(Math.random() * canvas.height);
@@ -43,6 +42,7 @@ export default {
 
         function draw() {
           ctx.fillStyle = "rgba(0,0,0,0.5)";
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
           ctx.fillRect(0, 0, canvas.width, canvas.height);
           ctx.fillStyle = "#E6002E";
 
@@ -148,8 +148,19 @@ export default {
             particles[i].neighbors = copy.slice(0, 10);
           }
         }, 250);
-            }
-        }
+}
+
+
+
+export default {
+    mounted() {
+      window.addEventListener('resize', (event) => {
+        background();
+      })
+
+      background();
+    }
+}
 </script>
 
 <template>
