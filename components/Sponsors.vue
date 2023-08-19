@@ -17,14 +17,27 @@
     <section id='sponsors' class='sponsors'>
         <h1 class='sponsors_title'>Sponsors</h1>
         <div class='sponsors_div'>
-            <a href='https://solana.com/' target='_blank'>
-                <n-image
-                    width="410"
-                    src="/imgs/Solana.svg"
-                    preview-disabled
-                    class="solana_logo"
-                />
-            </a>
+            <NImageGroup>
+                <div class="big_logos">
+                    <a href='https://solana.com/' target='_blank'>
+                        <n-image
+                            width="410"
+                            src="/imgs/Solana.svg"
+                            preview-disabled
+                            id="solana_logo"
+                        />
+                    </a>
+                    <br />
+                    <a href='https://mayaprep.com/' target='_blank'>
+                        <n-image 
+                            width="450"
+                            src="/imgs/MayaPrep.png"
+                            preview-disabled
+                            id="mayaprep_logo"
+                        />
+                    </a>
+                </div>
+            </NImageGroup>
             <NImageGroup>
                 <n-space justify="center">
                     <a href='https://sekai.team/' target='_blank'>

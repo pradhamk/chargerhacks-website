@@ -15,7 +15,6 @@
     font-size: 8vmin;
 }
 
-
 .sponsors_div {    
     pointer-events: all;    
 }
@@ -24,8 +23,8 @@
     margin-right: 40px;
 }
 
-.sponsors_div .solana_logo {
-    margin-bottom: 50px;
+.big_logos > a > * {
+    margin-bottom: 20px;
 }
 
 .sponsors_request_div {
@@ -44,4 +43,14 @@
 
 .sponsors_request a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .big_logos {
+        transform: scale(0.9);
+    }
+    
+    .big_logos #mayaprep_logo {
+        margin-left: -2rem;
+    }
 }
