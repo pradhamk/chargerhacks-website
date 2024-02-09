@@ -68,6 +68,11 @@
     animation: movingGradient 5s ease-in-out infinite alternate;
 }
 
+.landing_over {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
 .see_more_div {
     display: flex;
     flex-direction: column;

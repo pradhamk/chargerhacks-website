@@ -27,9 +27,7 @@
             <a href="#sponsors">Sponsors</a>
         </div>
         <div class='nav_apply_div'>
-            <a href='https://forms.gle/3ryRBQEWLnwzUgT2A' target="_blank">
-                <button class="nav_apply_button">Register</button>
-            </a>
+            <button class="nav_apply_button">Register</button>
         </div>
         <div id="mobile_menu" class='mobile_menu'>
             <button id="open_button" class='mobile_menu_open' @click="open_menu">
